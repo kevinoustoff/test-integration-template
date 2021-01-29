@@ -1,0 +1,32 @@
+
+.btn-cca {
+    display: inline-block;
+    font-weight: 400;
+    color: #3f4254;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .65rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .42rem;
+    -webkit-transition: color .3s ease-in-out,background-color .3s ease-in-out,border-color .3s ease-in-out,-webkit-box-shadow .3s ease-in-out;
+    transition: color .3s ease-in-out,background-color .3s ease-in-out,border-color .3s ease-in-out,-webkit-box-shadow .3s ease-in-out;
+    transition: color .3s ease-in-out,background-color .3s ease-in-out,border-color .3s ease-in-out,box-shadow .3s ease-in-out;
+    transition: color .3s ease-in-out,background-color .3s ease-in-out,border-color .3s ease-in-out,box-shadow .3s ease-in-out,-webkit-box-shadow .3s ease-in-out;
+}
+
+.btn-cca-primary{
+    color: #fff;
+    background-color: #0EAF3B;
+    border-color: #0EAF3B;
+
+}
+.mr-2, .mx-2 {
+    margin-right: .5rem!important;
+}

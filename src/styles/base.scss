@@ -1,0 +1,21 @@
+body{
+    background: #eef0f8;
+
+}
+
+body, html {
+    height: 90%;
+    margin: 0;
+    padding: 0;
+    font-size: 13px!important;
+    font-weight: 400;
+    font-family: Poppins,Helvetica,sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    //border: 20px solid ;
+    padding : 6px;
+}
