@@ -58,6 +58,7 @@
 					</div>
 					<!--end::Content-->
 					<!--begin::Footer-->
+						
 					<div class="footer bg-white py-4 d-flex flex-lg-column" id="kt_footer">
 						<!--begin::Container-->
 						<div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
@@ -68,6 +69,7 @@
 							</div>
 							<!--end::Copyright-->
 							<!--begin::Nav-->
+						
 							<div class="nav nav-dark">
 								<a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">About</a>
 								<a href="http://keenthemes.com/metronic" target="_blank" class="nav-link pl-0 pr-5">Team</a>
@@ -87,7 +89,7 @@
 </template>
 
 <script>
-
+ 
 export default {
   name: 'App',
   components: {
@@ -101,13 +103,21 @@ export default {
    @import "./styles/modules/buttons.scss";
    @import "./assets/css/style.bundlef552.css";
    @import "./assets/css/themes/layout/aside/darkf552.css";
+   @import "./assets/css/themes/layout/brand/darkf552.css";
+   @import "./assets/css/themes/layout/header/base/lightf552.css";
+   @import "./assets/css/themes/layout/header/menu/lightf552.css";
+   @import "./assets/css/themes/layout/brand/darkf552.css";
+   
+    
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-  margin-bottom: 0px;
+  
+  //margin-bottom: 0px;
 }
+
 </style>
