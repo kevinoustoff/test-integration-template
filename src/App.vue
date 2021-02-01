@@ -98,9 +98,10 @@ export default {
 
 <style lang="scss">
   @import "./styles/base.scss";
-   @import "./styles/modules/buttons.scss";
-   @import "./assets/css/style.bundlef552.css";
-   @import "./assets/css/themes/layout/aside/darkf552.css";
+  @import "./styles/modules/buttons.scss";
+	@import "./assets/css/style.bundlef552.css";
+	@import "./styles/layout.scss";
+  @import "./assets/css/themes/layout/aside/darkf552.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
