@@ -6,7 +6,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import 'jquery/src/jquery.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
-import $ from 'jquery';
+//import $ from 'jquery';
+const $ = require('jquery');
 
 Vue.use($);
 Vue.use(BootstrapVue);
