@@ -1,88 +1,125 @@
-        #kt_aside_menu {
-            height: 650px !important;
-            display: fixed;
-            width: 265px;
-        }
-        
-        .menu-link:hover {
-            background: #f3f6f9 !important;
-            color: black !important;
-        }
-        
-        .menu-link .menu-text:hover {
-            color: black !important;
-        }
-        
-        .brand {
-            background: white!important;
-            border-color: white !important;
-            border: 2px!important;
-            //border-style: solid !important;
-        }
-        
-        .aside-menu .menu-nav>.menu-item>.menu-heading .menu-text,
-        .aside-menu .menu-nav>.menu-item>.menu-link .menu-text {
-            color: #2C3F61;
-        }
-        
-        .menu-nav {
-            width: 265px !important;
-            background: white!important;
-        }
-        
-        #kt_aside {
-            position: fixed;
-            background: white !important;
-            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
-            ;
-        }
-        
-        #kt_aside_menu .active {
-            background: #f3f6f9;
-        }
-        
-        #kt_aside_menu_wrapper {
-            background: white !important;
-        }
-        
-        .aside-menu {
-            background: white !important;
-        }
-        
-        .aside-minimize:not(.aside-minimize-hover) .aside-menu .menu-nav>.menu-item {
-            background: 0 0
-        }
-        
-        .bullet.bullet-bar {
-            margin-right: 20px !important;
-        }
-        
-        .cca-bg-primary {
-            background-color: #2C3F61 !important;
-        }
-        
-        .aside-menu .menu-nav>.menu-item.menu-item-open>.menu-heading,
-        .aside-menu .menu-nav>.menu-item.menu-item-open>.menu-link {
-            background-color: #f3f6f9 !important;
-            color: black !important;
-        }
-        
-        .aside-menu .menu-nav>.menu-item.menu-item-open>.menu-heading .menu-text,
-        .aside-menu .menu-nav>.menu-item.menu-item-open>.menu-link .menu-text {
-            color: black !important;
-        }
-        
-        .aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-open>.menu-heading,
-        .aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-open>.menu-link {
-            background-color: #f3f6f9 !important;
-        }
-        
-        .aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-open>.menu-heading .menu-text,
-        .aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-open>.menu-link .menu-text {
-            color: black !important;
-        }
-        
-        .aside-menu .menu-nav>.menu-item>.menu-heading .menu-text,
-        .aside-menu .menu-nav>.menu-item>.menu-link .menu-text {
-            color: #2C3F61 !important;
-        }
+/***********************aside*******************************/
+
+#kt_aside_menu {
+    height: 650px !important;
+    display: fixed;
+    width: 265px;
+}
+
+.menu-link:hover {
+    background: #f3f6f9 !important;
+    color: black !important;
+}
+
+.menu-link .menu-text:hover {
+    color: black !important;
+}
+
+.brand {
+    background: white!important;
+    border-color: white !important;
+    border: 2px!important;
+    //border-style: solid !important;
+}
+
+.aside-menu .menu-nav>.menu-item>.menu-heading .menu-text,
+.aside-menu .menu-nav>.menu-item>.menu-link .menu-text {
+    color: #2C3F61;
+}
+
+.menu-nav {
+    width: 265px !important;
+    background: white!important;
+}
+
+#kt_aside {
+    position: fixed;
+    background: white !important;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+    ;
+}
+
+#kt_aside_menu .active {
+    background: #f3f6f9;
+}
+
+#kt_aside_menu_wrapper {
+    background: white !important;
+}
+
+.aside-menu {
+    background: white !important;
+}
+
+.aside-minimize:not(.aside-minimize-hover) .aside-menu .menu-nav>.menu-item {
+    background: 0 0
+}
+
+.bullet.bullet-bar {
+    margin-right: 20px !important;
+}
+
+.cca-bg-primary {
+    background-color: #2C3F61 !important;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-open>.menu-heading,
+.aside-menu .menu-nav>.menu-item.menu-item-open>.menu-link {
+    background-color: #f3f6f9 !important;
+    color: black !important;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-open>.menu-heading .menu-text,
+.aside-menu .menu-nav>.menu-item.menu-item-open>.menu-link .menu-text {
+    color: black !important;
+}
+
+.aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-open>.menu-heading,
+.aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-open>.menu-link {
+    background-color: #f3f6f9 !important;
+}
+
+.aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-open>.menu-heading .menu-text,
+.aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-open>.menu-link .menu-text {
+    color: black !important;
+}
+
+.aside-menu .menu-nav>.menu-item>.menu-heading .menu-text,
+.aside-menu .menu-nav>.menu-item>.menu-link .menu-text {
+    color: #2C3F61 !important;
+}
+
+.aside-menu .menu-nav>.menu-item>.menu-link {
+    padding: 0px 25px 0px 10px !important;
+}
+
+.aside-menu .menu-nav>.menu-item>.menu-heading .menu-icon svg,
+.aside-menu .menu-nav>.menu-item>.menu-link .menu-icon svg {
+    margin-left: 4px !important;
+}
+
+@media (min-width: 992px) {
+    .aside-minimize:not(.aside-minimize-hover) .aside-menu .menu-nav {
+        padding: 15px 0 !important;
+    }
+}
+
+.aside-minimize #kt_aside .menu-link {
+    width: fit-content;
+}
+
+.aside-minimize #kt_aside {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+    ;
+}
+
+.brand {
+    height: 80px !important;
+}
+
+#kt_aside_toggle {
+    display: none !important;
+}
+
+
+/*******************************navbar*************************/

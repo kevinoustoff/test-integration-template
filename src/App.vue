@@ -17,59 +17,7 @@
 						
 						<!--end::Subheader-->
 						<!--begin::Entry-->
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						zdyzgudyuzdgzydgzdgzydduygazy<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						zdyzgudyuzdgzydgzdgzydduygazy<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						zdyzgudyuzdgzydgzdgzydduygazy<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						zdyzgudyuzdgzydgzdgzydduygazy<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						zdyzgudyuzdgzydgzdgzydduygazy<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						zdyzgudyuzdgzydgzdgzydduygazy<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						zdyzgudyuzdgzydgzdgzydduygazy<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						zdyzgudyuzdgzydgzdgzydduygazy<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
-						fv<br/>
+						
 						zdyzgudyuzdgzydgzdgzydduygazy<br/>
 						fv<br/>
 						fv<br/>
@@ -129,6 +77,7 @@ export default {
   components: {
     SideBar
   }
+  
 }
 </script>
 

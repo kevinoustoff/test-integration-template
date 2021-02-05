@@ -55,7 +55,8 @@
 									<i class="menu-icon ki ki-bold-more-hor icon-md"></i>
 								</li>
 								<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-									<a href="javascript:;" class="menu-link menu-toggle">
+									<a href="javascript:;" class="menu-link menu-toggle" @mouseover="hoverApplication = true" @mouseleave="hoverApplication = false">
+										<span  v-if="hoverApplication === true"  class="bullet bullet-bar cca-bg-primary align-self-stretch"></span>
 										<span class="svg-icon menu-icon">
 											<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Layout/Layout-4-blocks.svg-->
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -78,403 +79,7 @@
 													<span class="menu-text">Applications</span>
 												</span>
 											</li>
-											<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-												<a href="javascript:;" class="menu-link menu-toggle">
-													<i class="menu-bullet menu-bullet-line">
-														<span></span>
-													</i>
-													<span class="menu-text">Users</span>
-													<span class="menu-label">
-														<span class="label label-rounded label-primary">6</span>
-													</span>
-													<i class="menu-arrow"></i>
-												</a>
-												<div class="menu-submenu">
-													<i class="menu-arrow"></i>
-													<ul class="menu-subnav">
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/user/list-default.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Default</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/user/list-datatable.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Datatable</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/user/list-columns-1.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Columns 1</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/user/list-columns-2.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Columns 2</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/user/add-user.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Add User</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/user/edit-user.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Edit User</span>
-															</a>
-														</li>
-													</ul>
-												</div>
-											</li>
-											<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-												<a href="javascript:;" class="menu-link menu-toggle">
-													<i class="menu-bullet menu-bullet-line">
-														<span></span>
-													</i>
-													<span class="menu-text">Profile</span>
-													<i class="menu-arrow"></i>
-												</a>
-												<div class="menu-submenu">
-													<i class="menu-arrow"></i>
-													<ul class="menu-subnav">
-														<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-															<a href="javascript:;" class="menu-link menu-toggle">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Profile 1</span>
-																<i class="menu-arrow"></i>
-															</a>
-															<div class="menu-submenu">
-																<i class="menu-arrow"></i>
-																<ul class="menu-subnav">
-																	<li class="menu-item" aria-haspopup="true">
-																		<a href="custom/apps/profile/profile-1/overview.html" class="menu-link">
-																			<i class="menu-bullet menu-bullet-line">
-																				<span></span>
-																			</i>
-																			<span class="menu-text">Overview</span>
-																		</a>
-																	</li>
-																	<li class="menu-item" aria-haspopup="true">
-																		<a href="custom/apps/profile/profile-1/personal-information.html" class="menu-link">
-																			<i class="menu-bullet menu-bullet-line">
-																				<span></span>
-																			</i>
-																			<span class="menu-text">Personal Information</span>
-																		</a>
-																	</li>
-																	<li class="menu-item" aria-haspopup="true">
-																		<a href="custom/apps/profile/profile-1/account-information.html" class="menu-link">
-																			<i class="menu-bullet menu-bullet-line">
-																				<span></span>
-																			</i>
-																			<span class="menu-text">Account Information</span>
-																		</a>
-																	</li>
-																	<li class="menu-item" aria-haspopup="true">
-																		<a href="custom/apps/profile/profile-1/change-password.html" class="menu-link">
-																			<i class="menu-bullet menu-bullet-line">
-																				<span></span>
-																			</i>
-																			<span class="menu-text">Change Password</span>
-																		</a>
-																	</li>
-																	<li class="menu-item" aria-haspopup="true">
-																		<a href="custom/apps/profile/profile-1/email-settings.html" class="menu-link">
-																			<i class="menu-bullet menu-bullet-line">
-																				<span></span>
-																			</i>
-																			<span class="menu-text">Email Settings</span>
-																		</a>
-																	</li>
-																</ul>
-															</div>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/profile/profile-2.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Profile 2</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/profile/profile-3.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Profile 3</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/profile/profile-4.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Profile 4</span>
-															</a>
-														</li>
-													</ul>
-												</div>
-											</li>
-											<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-												<a href="javascript:;" class="menu-link menu-toggle">
-													<i class="menu-bullet menu-bullet-line">
-														<span></span>
-													</i>
-													<span class="menu-text">Contacts</span>
-													<i class="menu-arrow"></i>
-												</a>
-												<div class="menu-submenu">
-													<i class="menu-arrow"></i>
-													<ul class="menu-subnav">
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/contacts/list-columns.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Columns</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/contacts/list-datatable.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Datatable</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/contacts/view-contact.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">View Contact</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/contacts/add-contact.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Add Contact</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/contacts/edit-contact.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Edit Contact</span>
-															</a>
-														</li>
-													</ul>
-												</div>
-											</li>
-											<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-												<a href="javascript:;" class="menu-link menu-toggle">
-													<i class="menu-bullet menu-bullet-line">
-														<span></span>
-													</i>
-													<span class="menu-text">Projects</span>
-													<i class="menu-arrow"></i>
-												</a>
-												<div class="menu-submenu">
-													<i class="menu-arrow"></i>
-													<ul class="menu-subnav">
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/projects/list-columns-1.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Columns 1</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/projects/list-columns-2.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Columns 2</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/projects/list-columns-3.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Columns 3</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/projects/list-columns-4.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Columns 4</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/projects/list-datatable.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">List - Datatable</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/projects/view-project.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">View Project</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/projects/add-project.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Add Project</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/projects/edit-project.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Edit Project</span>
-															</a>
-														</li>
-													</ul>
-												</div>
-											</li>
-											<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-												<a href="javascript:;" class="menu-link menu-toggle">
-													<i class="menu-bullet menu-bullet-line">
-														<span></span>
-													</i>
-													<span class="menu-text">Support Center</span>
-													<i class="menu-arrow"></i>
-												</a>
-												<div class="menu-submenu">
-													<i class="menu-arrow"></i>
-													<ul class="menu-subnav">
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/support-center/home-1.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Home 1</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/support-center/home-2.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Home 2</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/support-center/faq-1.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">FAQ 1</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/support-center/faq-2.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">FAQ 2</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/support-center/faq-3.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">FAQ 3</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/support-center/feedback.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Feedback</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/support-center/license.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">License</span>
-															</a>
-														</li>
-													</ul>
-												</div>
-											</li>
-											<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-												<a href="javascript:;" class="menu-link menu-toggle">
-													<i class="menu-bullet menu-bullet-line">
-														<span></span>
-													</i>
-													<span class="menu-text">Chat</span>
-													<i class="menu-arrow"></i>
-												</a>
-												<div class="menu-submenu">
-													<i class="menu-arrow"></i>
-													<ul class="menu-subnav">
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/chat/private.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Private</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/chat/group.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Group</span>
-															</a>
-														</li>
-														<li class="menu-item" aria-haspopup="true">
-															<a href="custom/apps/chat/popup.html" class="menu-link">
-																<i class="menu-bullet menu-bullet-dot">
-																	<span></span>
-																</i>
-																<span class="menu-text">Popup</span>
-															</a>
-														</li>
-													</ul>
-												</div>
-											</li>
+											
 											<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 												<a href="javascript:;" class="menu-link menu-toggle">
 													<i class="menu-bullet menu-bullet-line">
@@ -752,7 +357,8 @@
 									</div>
 								</li>
 								<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-									<a href="javascript:;" class="menu-link menu-toggle">
+									<a href="javascript:;" class="menu-link menu-toggle" @mouseover="hoverPage = true" @mouseleave="hoverPage = false">
+										<span  v-if="hoverPage === true"  class="bullet bullet-bar cca-bg-primary align-self-stretch"></span>
 										<span class="svg-icon menu-icon">
 											<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Shopping/Barcode-read.svg-->
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -1189,7 +795,8 @@
 									<i class="menu-icon ki ki-bold-more-hor icon-md"></i>
 								</li>
 								<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-									<a href="javascript:;" class="menu-link menu-toggle">
+									<a href="javascript:;" class="menu-link menu-toggle" @mouseover="hoverTheme = true" @mouseleave="hoverTheme = false">
+										<span  v-if="hoverTheme === true"  class="bullet bullet-bar cca-bg-primary align-self-stretch"></span>
 										<span class="svg-icon menu-icon">
 											<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Design/Bucket.svg-->
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -1705,13 +1312,24 @@
 export default {
   name: 'SideBar',
   props: {
-    msg: String
-  }
+	msg: String
+  },
+  data(){
+   return {
+		hoverApplication: false,
+		hoverPage: false,
+		hoverTheme: false,
+		hoverSubHeader: false
+   }
+ }
+
+
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
     @import ".././styles/layout.scss";
-    @import ".././assets/css/themes/layout/aside/darkf552.css"
+	@import ".././assets/css/themes/layout/aside/darkf552.css";
+	@import ".././assets/css/style.bundlef552.css";
 </style>
